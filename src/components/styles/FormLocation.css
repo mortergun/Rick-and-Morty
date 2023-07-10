@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 5em;
+}
+.form__input {
+  width: 20em;
+  color: #000000;
+  background-color: #8EFF8B;
+  box-shadow: 1px 1px 10px;
+}
+.form__button{
+  color: #FBFBFB;
+  background-color: rgba(142, 255, 139, 0.5);
+  stroke: #8EFF8B;
+  width: auto;
+  max-width: 100px;
+  max-height: 50px;
+}
+.form__button:hover {
+  color: #000000;
+  background-color: #8EFF8B;
+  stroke: #8EFF8B;
+}

@@ -1,0 +1,16 @@
+.resident-container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header__img {
+  width: 100%;
+  position: relative;
+}
+
+.body {
+  background: url('/public/background_page.jpg') no-repeat fixed;
+  background-size: cover;
+}
