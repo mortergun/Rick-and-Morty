@@ -6,7 +6,7 @@ const FormLocation = ({ setIdLocation }) => {
   const handleSubmit = e => {
     e.preventDefault()
     const inputValue = e.target.inputId.value.trim()
-    if (inputValue === '' || inputValue === 0){
+    if (inputValue === '' || inputValue === '0'){
       setIdLocation(getRandomNumber(126))
     } else {
       setIdLocation(e.target.inputId.value.trim())

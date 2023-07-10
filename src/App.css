@@ -11,6 +11,6 @@
 }
 
 .body {
-  background: url('/public/background_page.jpg') no-repeat fixed;
+  background: url('/background_page.jpg') no-repeat fixed;
   background-size: cover;
 }
