@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 5em;
 }
 .form__input {
   width: 20em;
